@@ -4,10 +4,12 @@ import profile1 from "./images/dilmcphee.jpg";
 import profile2 from "./images/shayini_venthan.jpg";
 import profile3 from "./images/vickyrjoyal.jpg";
 import SingleComment from "./SingleComment";
+import UserCard from "./UserCard";
 
 const App = () => {
   return (
     <div className="ui comments">
+      <UserCard />
       <SingleComment
         profilePicture={profile1}
         name="dilmcphee"
