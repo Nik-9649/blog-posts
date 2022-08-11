@@ -12,16 +12,19 @@ const App = () => {
         profilePicture={profile1}
         name="dilmcphee"
         comment="Blossom"
+        date="Today at 5:10PM"
       />
       <SingleComment
         profilePicture={profile2}
         name="shayini_venthan"
         comment="Hazel"
+        date="Yesterday"
       />
       <SingleComment
         profilePicture={profile3}
         name="vickyrjoyal"
         comment="Alfred 👑"
+        date="Jan 12, 2021"
       />
     </div>
   );
