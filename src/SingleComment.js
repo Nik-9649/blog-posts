@@ -3,7 +3,7 @@ import profile1 from "./images/dilmcphee.jpg";
 import profile2 from "./images/shayini_venthan.jpg";
 import profile3 from "./images/vickyrjoyal.jpg";
 
-const SingleComment = () => {
+const SingleComment = props => {
   return (
     <div className="comment">
       <a href="/" className="avatar">
@@ -11,7 +11,7 @@ const SingleComment = () => {
       </a>
       <div className="content">
         <a href="/" className="author">
-          dilmcphee
+          {props.name}
         </a>
         <div className="metadata">
           <span className="date">Today at 5:00PM</span>

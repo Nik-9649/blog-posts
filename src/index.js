@@ -5,9 +5,9 @@ import SingleComment from "./SingleComment";
 const App = () => {
   return (
     <div className="ui comments">
-      <SingleComment name="dilmcphee" />
-      <SingleComment name="shayini_venthan" />
-      <SingleComment name="vickyrjoyal" />
+      <SingleComment name="dilmcphee" comment="Blossom" />
+      <SingleComment name="shayini_venthan" comment="Hazel" />
+      <SingleComment name="vickyrjoyal" comment="Alfred 👑" />
     </div>
   );
 };
