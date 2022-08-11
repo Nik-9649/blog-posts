@@ -4,7 +4,7 @@ const UserCard = props => {
   return (
     <div className="ui card">
       <div className="content">
-        <div className="header"></div>
+        <div className="header">{props.name}</div>
         <div className="description">{props.children}</div>
       </div>
       <div className="ui button button">
