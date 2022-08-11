@@ -1,7 +1,4 @@
 import React from "react";
-import profile1 from "./images/dilmcphee.jpg";
-import profile2 from "./images/shayini_venthan.jpg";
-import profile3 from "./images/vickyrjoyal.jpg";
 
 const SingleComment = props => {
   return (
